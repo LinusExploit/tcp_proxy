@@ -10,7 +10,7 @@ HEX_FILTER = ''.join(ASCII)
 
 
 # A function that takes a string as an input and outputs the hex dump of it.
-
+# Hexdump function to filter non ascii chars and replace with dots 
 def hexdump(text, show=True, length=16):
     # The function will read the text and output lines of 16 bytes each representing the hex code and the ascii
     # So we parsed a string now and first we need to replace chars that are not ascii with .
